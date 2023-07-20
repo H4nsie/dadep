@@ -39,7 +39,7 @@ Read the <a href="Domoticz Wiki">https://www.domoticz.com/wiki/Dummy_for_virtual
 
 
 
-2) **Configure the names of your sensors in the setting part of the script (dadep.lua)**
+2) **Configure the names of your creatd DUMMY sensors in the setting part of the script (dadep.lua)**
 
 (only needed if you did choose an another name)
 
