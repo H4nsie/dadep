@@ -3,7 +3,7 @@ The DAY AHEAD DAILY (and hourly) ENERGY PRICES
 
 A small dzVents script for Domoticz for counting your electricity use (in Euro's) during the day. 
 
-One special field 'Electricity color' is filled with a color. Electricity color changes during the day from **BLUE** (normal), **RED** (more than 10% higher than day avarage) or **GREEN** (more than 10% cheaper than day avarage) - You can switch devices at cheap of expensice times, or install a RGB lamp to indicate to your family :-)
+One special field 'Electricity color' is filled with a color. Electricity color changes during the day from **BLUE** (normal), **RED** (more than 10% higher than day avarage) or **GREEN** (more than 10% cheaper than day avarage) - You can switch devices at cheap of expensive times, or install a RGB lamp to indicate to your family :-)
 
 During the day, the counter 'Self produced percentage' is updated. It is calculated between used electricity and power obtained from your solar panals. Very nice to follow the percentage change when the sun shines, or car is charged.
 
@@ -70,3 +70,4 @@ Read the <a href="Domoticz Wiki">https://www.domoticz.com/wiki/Dummy_for_virtual
 
 And have fun!
 
+For 
