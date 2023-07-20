@@ -1,5 +1,5 @@
 # dadep
-The DAY AHEAD DAILY (and hourly) ENERGY PRICES
+The DAY AHEAD DAILY (and hourly) ENERGY PRICES for Domoticz
 
 A small dzVents script for Domoticz for counting your electricity use (in Euro's) during the day. 
 
