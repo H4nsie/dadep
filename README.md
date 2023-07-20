@@ -74,4 +74,4 @@ Read the <a href="Domoticz Wiki">https://www.domoticz.com/wiki/Dummy_for_virtual
 
 And have fun!
 
-For 
+
