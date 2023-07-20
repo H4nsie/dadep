@@ -312,7 +312,7 @@ return {
 		      Electra zelf verbruikt ⚡ '.. dz.data.data_report_sun_yesterday_usage + dz.data.data_report_electric_yesterday_usage - dz.data.data_report_electric_yesterday_return .. ' kWh\n\z
 		      Zelfvoorzienend electra '.. dz.utils.round( ( dz.data.data_report_sun_yesterday_usage / (dz.data.data_report_sun_yesterday_usage + dz.data.data_report_electric_yesterday_usage - dz.data.data_report_electric_yesterday_return)*100) ,0)..' %' 
 		    -- than send the above message  
-    	    dz.helpers.telegramnote(dz, message)  
+    	    --dz.helpers.telegramnote(dz, message)  
     	
     	-- if other time, than calc realtime costs!
     	elseif item.isTimer or (item.isDevice and item.name == 'Testbutton') then
