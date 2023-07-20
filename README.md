@@ -9,7 +9,7 @@ During the day, the counter 'Self produced percentage' is updated. It is calcula
 
 Electricity prices are obtained hourly from ENTSOE (you need an API key, explained below), gasprices obtained daily from EEX (no API key needed). 
 
-Enable the report function (at line 315) to send the report (composed in string _message_) to send a comlete report to your (Telegram?) family group app at 8:05AM to show stats of the previous day.
+Enable the report function (at line 315) to send the report (composed in string _message_) to send a complete report to your (Telegram) family group app at 8:05AM to show stats of the previous day.
 
 
 
@@ -24,14 +24,14 @@ Installation steps:
 
 Read the <a href="Domoticz Wiki">https://www.domoticz.com/wiki/Dummy_for_virtual_Switches</a> if you don't know how to!
 
-* 'Elektriciteit prijs dit uur'	-- your device for hourly kwh price 	| type: add dummy device -> Custom sensor (cents)
-* 'Electriciteit kleur nu'			-- your device for the color *1 			| type: add dummy device -> text device
-* 'Elektraverbruik vandaag'			-- your device for today's electric costs. resets at midnight. | type: add dummy device ->  Custom sensor (euro)
-* 'Gasprijs nu'								  -- your device for gasprice of today 	| type: add dummy device -> Custom sensor (cents)
-* 'Gasprijs morgen'					    -- your device for gasprice of tomorrow | type: add dummy device -> Custom sensor (cents)
-* 'Gasverbruik vandaag'					-- your device for today's gas costs. resets at midnight. | Type: add dummy device -> Custom sensor (euro)
-* 'Waterverbruik vandaag'				-- your dummy device for today's water costs. resets at midnight.  -> Custom sensor (euro)
-* 'Zelfproductie vandaag'			  -- your dummy device for today's self produced perc. *2 -> Custom sensor (euro)
+* '**Elektriciteit prijs dit uur**'	-- your device for hourly kwh price 	| type: add dummy device -> Custom sensor (cents)
+* '**Electriciteit kleur nu**'			-- your device for the color *1 			| type: add dummy device -> text device
+* '**Elektraverbruik vandaag**'			-- your device for today's electric costs. resets at midnight. | type: add dummy device ->  Custom sensor (euro)
+* '**Gasprijs nu**'								  -- your device for gasprice of today 	| type: add dummy device -> Custom sensor (cents)
+* '**Gasprijs morgen**'					    -- your device for gasprice of tomorrow | type: add dummy device -> Custom sensor (cents)
+* '**Gasverbruik vandaag**'					-- your device for today's gas costs. resets at midnight. | Type: add dummy device -> Custom sensor (euro)
+* '**Waterverbruik vandaag**'				(**optional**) -- your dummy device for today's water costs. resets at midnight.  -> Custom sensor (euro) 
+* '**Zelfproductie vandaag**'			  -- your dummy device for today's self produced perc. *2 -> Custom sensor (euro)
 
 *1 Electricity color changes during the day from **BLUE** (normal), **RED** (more than 10% higher than day avarage) or **GREEN** (more than 10% cheaper than day avarage) - You can switch devices at cheap of expensice times, or install a RGB lamp to indicate to your family :-)
 
@@ -65,6 +65,10 @@ Read the <a href="Domoticz Wiki">https://www.domoticz.com/wiki/Dummy_for_virtual
 7) **Enable report function for family if you want**
 
    On line 315     	    _dz.helpers.telegramnote(dz, message)_ use a own function to send 'message' to family group app daily at 8:05
+
+<img width="370" alt="Scherm­afbeelding 2023-07-20 om 16 48 37" src="https://github.com/H4nsie/dadep/assets/8566538/cec678ff-1f93-4da5-8da0-3b1f87323432">
+
+
 
 5) **Place the script (dadep.lua) in your _domoticz/scripts/dzVents/scripts_ directory**
 
