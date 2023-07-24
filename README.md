@@ -15,7 +15,7 @@ Electricity prices are obtained hourly from ENTSOE (you need an API key, explain
 
 Enable the report function (at line 315) to send the report (composed in string _message_) to send a complete report to your (Telegram) family group app at 8:05AM to show stats of the previous day.
 
-**Requirements: Domoticz with P1 counter for Electric and Gas, Counter for Solar panels, Dynamic prices contract. Optional: Water counter, Telegram implementation for Report.**
+**Requirements: Domoticz with P1 counter for Electric and Gas, Counter for Solar panels, Dynamic prices contract, API-key (free) from ENTSOE. Optional: Water counter, Telegram implementation for Report.**
 
 
 <img width="1261" alt="Scherm­afbeelding 2023-07-20 om 15 38 56" src="https://github.com/H4nsie/dadep/assets/8566538/ad16449e-f049-4027-9fdd-fb006d7c5cbb">
