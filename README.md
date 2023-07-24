@@ -1,7 +1,7 @@
 # dadep
 The DAY AHEAD DAILY (and hourly) ENERGY PRICES for Domoticz
 
-A small dzVents script for Domoticz for counting your electricity use (in Euro's) during the day. 
+A small dzVents script for Domoticz for counting your electricity use (in Euro's) during the day. Use with 'Dynamic' provider prices (electric hourly, gas daily (6-6h)). Prices are obtained directly from Entso-E and EEX.
 
 **Cost counters are updated every 5 min. Watch your realtime electricity, gas and water costs!**
 
