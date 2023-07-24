@@ -35,7 +35,7 @@ Read the <a href="Domoticz Wiki">https://www.domoticz.com/wiki/Dummy_for_virtual
 * '**Gasprijs morgen**'					    -- your device for gasprice of tomorrow | type: add dummy device -> Custom sensor (cents)
 * '**Gasverbruik vandaag**'					-- your device for today's gas costs. resets at midnight. | Type: add dummy device -> Custom sensor (euro)
 * '**Waterverbruik vandaag**'				(**optional**) -- your dummy device for today's water costs. resets at midnight.  -> Custom sensor (euro) 
-* '**Zelfproductie vandaag**'			  -- your dummy device for today's self produced perc. *2 -> Custom sensor (euro)
+* '**Zelfproductie vandaag**'			  -- your dummy device for today's self produced perc. *2 -> Custom sensor (%)
 
 *1 Electricity color changes during the day from **BLUE** (normal), **RED** (more than 10% higher than day avarage) or **GREEN** (more than 10% cheaper than day avarage) - You can switch devices at cheap of expensice times, or install a RGB lamp to indicate to your family :-)
 
