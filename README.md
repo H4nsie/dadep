@@ -5,7 +5,7 @@ A small dzVents script for Domoticz for counting your electricity use (in Euro's
 
 **Cost counters are updated every 5 min. Watch your realtime electricity, gas and water costs!**
 
-
+Total costs a day are calculated against hourly different electric prices and daily (6-6h) gas prices.
 
 One special field 'Electricity color' is filled with a color. Electricity color changes during the day from **BLUE** (normal), **RED** (more than 10% higher than day avarage) or **GREEN** (more than 10% cheaper than day avarage) - You can switch devices at cheap of expensive times, or install a RGB lamp to indicate to your family :-)
 
